@@ -90,3 +90,13 @@ img{
     font-family: cursive;
     background-color: burlywood;
   }
+
+  @media(max-width: 700px) or (max-height: 500px){
+    .wrapper{
+      padding-bottom: 90px;
+    }
+    .filtering{
+      display: flex;
+      flex-direction: column;
+    }
+  }

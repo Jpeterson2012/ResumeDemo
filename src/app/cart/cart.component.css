@@ -70,3 +70,12 @@ th,td{
 .plusminus h4{
     font-size: 30px;
 }
+
+
+
+@media(max-width: 700px) or (max-height: 500px){
+    .table-responsive{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
