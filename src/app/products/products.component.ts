@@ -111,7 +111,7 @@ export class ProductsComponent implements OnInit, OnDestroy{
   //Search functionality//////////////////////////////
   searchText: string = '';
   onSearchTextEntered(data: string){
-    this.searchText = data;
+    this.searchText = data.toLowerCase();
   }
   ////////////////////////////////////////////////////
 

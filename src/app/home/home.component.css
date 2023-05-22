@@ -65,26 +65,33 @@ img{
 img:hover{
     transform:scale(1.5);
 }
+.form-check, button, .carimages{
+  display: none;
+}
+
 @media(max-width: 700px){
   .wrapper{
     display: flex;
     flex-direction: column;
     gap: 28px;
   }
-  .container{
+  .carimages{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+  }
+  .picsum-img-wrapper{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 270px;
-    border-bottom: none;
-    /* border-top: 4px dashed burlywood; */
-    /* border-bottom: 4px dashed burlywood; */
-    margin-bottom: 15px;
-    
-    /* padding: 40px; */
-    /* margin: 25px 0px; */
-    /* background-color: gainsboro; */
-    
+  }
+  img{
+    max-height: 200px;
+  }
+  .container{
+    display: none;
 }
 }

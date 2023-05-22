@@ -13,7 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { DetailsComponent } from './details/details.component';
 import { FilterComponent } from './filter/filter.component';
 import { SearchComponent } from './search/search.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import { CartComponent } from './cart/cart.component';
 import { DBService } from './Services/db.service';
@@ -56,6 +56,7 @@ import { AdminBoardComponent } from './authentication/adminboard/adminboard.comp
     BrowserAnimationsModule,
     MatSnackBarModule,
     NgbAccordionModule,
+    NgbCarouselModule
     
 
   ],

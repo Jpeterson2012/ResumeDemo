@@ -77,4 +77,8 @@
     .card{
         margin-bottom: 20px;
     }
+
+    .middle h5,h6, .right p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 }

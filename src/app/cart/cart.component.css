@@ -74,8 +74,26 @@ th,td{
 
 
 @media(max-width: 700px) or (max-height: 500px){
+    tbody{
+        width: 100%;
+    }
     .table-responsive{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h5,.center, h4,h6,th,td{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    thead tr{
+        display: none;
+    }
+
+    tbody tr {
+        display: flex;
+        flex-direction: column;
     }
 }
