@@ -19,6 +19,9 @@ a{
     bottom: 0pt;
     left: 0pt;
 }   
+.firstSocial{
+    color: black;
+}
 .footerContents {
     height:24px; 
     width: 1000px;
@@ -62,6 +65,9 @@ form{
 @media(max-width: 700px) or (max-height: 500px){
     .footer{
         height: 100px;
+    }
+    .firstSocial{
+        width: 100%;
     }
     .footerContents{
         height: 100px;
