@@ -59,16 +59,21 @@ th,td{
 .plusminus{
     display: flex;
     justify-content: center;
+    align-items: start;
     /* align-items: flex-start */
     gap: 30px;
 }
 .plusminus button{
     background: none;
     border: none;
-    padding-top: none;
+    
+    margin: 0px;
+    display: inline-block;
+
+    
 }
 .plusminus h4{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -95,5 +100,13 @@ th,td{
     tbody tr {
         display: flex;
         flex-direction: column;
+    }
+}
+@media (min-height: 1000px){
+    .container{
+        height: 100vh;
+    }
+    .container2{
+        height: 100vh;
     }
 }

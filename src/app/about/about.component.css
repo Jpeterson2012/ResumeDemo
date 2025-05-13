@@ -74,3 +74,11 @@ img{
         /* flex-wrap: wrap; */
     }
 }
+@media (min-height: 1000px){
+    .container{
+        height: 100vh;
+    }
+    .container2{
+        height: 100vh;
+    }
+}

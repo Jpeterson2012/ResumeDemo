@@ -45,6 +45,7 @@ img{
 /* Filter/search bar background */
 
 
+
 /* Product card fade animation */
 .transition, .subcontainer{
     animation: fadeIn 3s;
@@ -107,3 +108,12 @@ img{
       width: 5rem;
     }
   }
+  .changeBackground2{
+    padding-bottom: 500px;
+  }
+@media(min-height: 1000px){
+  .changeBackground2{
+    padding-bottom: 1000px;
+  }
+}
+  

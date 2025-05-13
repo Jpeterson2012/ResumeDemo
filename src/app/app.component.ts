@@ -23,7 +23,7 @@ export class AppComponent implements OnInit, DoCheck, OnDestroy {
   status = false;
 
 
-
+  public slink: string = "https://www.buymeacoffee.com/BooksnCrannies"
   public totalItem: number = 0;
   ngOnInit(): void {
     // this.cartService.getProducts().subscribe(res=>{

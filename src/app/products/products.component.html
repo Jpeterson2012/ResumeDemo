@@ -25,7 +25,7 @@
 
 
 <!-- Main product display -->
-<div class="container">
+<div class="container" >
   <!-- Highlight filter/search div -->
   <div class="filtering" [ngClass]="{changeBackground: searchText != ''}">
     <app-filter [all]="returnAllProd()" [avail]="returnAvailProd()" [unavail]="returnUnavailProd()"
@@ -34,7 +34,7 @@
     <app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search>
   </div>
 
-  <div class="subcontainer">
+  <div class="subcontainer" [ngClass]="{changeBackground2: searchText != ''}">
     <div class="wrapper" *ngFor="let book of books">
       <!-- Search function -->
       <ng-container

@@ -20,10 +20,14 @@ const routes: Routes = [
   {path: 'details',component: DetailsComponent},
   {path: 'cart', component: CartComponent},
   {path: 'checkout', component: CheckoutComponent},
-  {path: 'login', component: LoginComponent},
-  {path: 'register', component: RegisterComponent},
-  {path: 'profile', component: ProfileComponent},
-  {path: 'admin', component: AdminBoardComponent},
+  // {path: 'login', component: LoginComponent},
+  {path: 'login', redirectTo: 'home', pathMatch: 'full'},
+  // {path: 'register', component: RegisterComponent},
+  {path: 'register', redirectTo: 'home', pathMatch: 'full'},
+  // {path: 'profile', component: ProfileComponent},
+  {path: 'profile', redirectTo: 'home', pathMatch: 'full'},
+  // {path: 'admin', component: AdminBoardComponent},
+  {path: 'admin', redirectTo: 'home', pathMatch: 'full'},
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: '**', component: HomeComponent}
 ]
